@@ -1121,7 +1121,7 @@ setting the log scoring rule can be computed as.
 
 ```
 
-where $p_t(\tilde y_i)$ is distribution of the true data-generating
+where $p_t(\tilde y_i)$ is the distribution of the true data-generating
 process for $\tilde y_i$ and $p(\tilde y_i \mid y_i)$ is the posterior
 predictive distribution. The quantity defined in Equation {eq}`eq:elpd`
 is known as the **expected log pointwise predictive density** (ELPD).
