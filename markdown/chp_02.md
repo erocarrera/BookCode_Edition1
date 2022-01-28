@@ -1066,7 +1066,7 @@ we may want to increase the number of iterations used to tune MCMC
 samplers. In PyMC3 we have `pm.sample(.,tune=1000)` by default. During
 the tuning phase sampler parameters get automatically adjusted. Some
 models are more complex and require more interactions for the sampler to
-learn better parameters. Thus increasing the turning steps can help to
+learn better parameters. Thus increasing the tuning steps can help to
 increase the ESS or lower the $\hat R$. Increasing the number of draws
 can also help with convergence but in general other routes are more
 productive. If a model is failing to converge with a few thousands of
